@@ -7,8 +7,8 @@ import java.util.*;
 
 public class PolygonCrawler {
     public static final String POLYGON_REPO_DIR = "POLYGON_REPO_DIR";
-
     public static final Set<String> AVAILABLE_FILE_NAMES = Set.of(
+            "aiserv",
             "codeforces-commons",
             "commons-ext",
             "csrf-prevention-filter",

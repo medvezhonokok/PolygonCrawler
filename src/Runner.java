@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Set;
 
 public final class Runner {
-
     public static final Path SCRIPTS_DIR = Path.of("Z:\\PolygonCrawler\\scripts");
     public static final String DEFAULT_SCRIPT_TO_RUN = "runner.bat";
     public static final Set<String> AVAILABLE_SCRIPT_NAMES = Set.of(
@@ -18,7 +17,6 @@ public final class Runner {
         }
     }
 
-    @SuppressWarnings("deprecation")
     private static void process(String scriptName, String pathToFile, String... args) {
         Process process;
 
